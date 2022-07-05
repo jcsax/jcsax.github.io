@@ -1,3 +1,215 @@
-# jcsax.github.io
+<!DOCTYPE HTML>
+<html>
+{% load static %}
+<head>
+<title>Joan Camarotta</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="homepage is-preload">
+<div id="page-wrapper">
 
-Este será mi portfolio de Github
+<!-- Header -->
+	<section id="header" class="wrapper">
+		<!-- Logo -->
+			<div id="logo">
+				<img src="images/FOTO_CV.jpg" style="border-radius: 50%; border: 5px; height: 200px; width: 200px;"/>
+				<h1><a href="#">Joan Pehuen Camarotta</a></h1>
+				<p>Python Backend Developer</p>
+			</div>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li>
+						<a href="#">Mis Proyectos</a>
+						<ul>
+							<li><a href="#">MDQ-PET</a></li>
+							<li><a href="#">E-Commerce</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Calculator XXK</a></li>
+				</ul>
+				<li class="current"><a href="#contact">Contacto</a></li>
+			</nav>
+	</section>
+
+<!-- Intro -->
+	<section id="intro" class="wrapper style1">
+		<div class="title">Trainee Backend</div>
+		<div class="container">
+			<p class="style1">Soy Joan Camarotta, desarrollador Backend, comencé por Python+Django en Coderhouse, donde termine entre el top 10 y con un 10 en la nota final de mi proyecto. </p>
+			<p class="style2">
+				Django - Python - HTML - CSS - SQL. <br class="mobile-hide" />
+			</p>
+			<p class="style3">En mi <strong>ROADMAP</strong> a corto plazo, quiero interiorizarme con el Rest Framework de Django, API's y otras DB.</p>
+			<ul class="actions">
+				<li><a href="#highlights" class="button style3 large">Mis projectos</a></li>
+			</ul>
+		</div>
+	</section>
+
+<!-- Main -->
+	<section id="main" class="wrapper style2">
+		<div class="title">Acerca de mí</div>
+		<div class="container">
+
+			<!-- Image -->
+				<a href="#" class="image featured">
+					<img src="" alt="" />
+				</a>
+
+			<!-- Features -->
+				<section id="features">
+					<header class="style1">
+						<h2>Habilidades</h2>
+						<p>Más de 10 años de experiencia en ventas, los cuales forjaron mis habilidades blandas: empatía, escucha activa, creatividad, capacidad resolutiva. 
+							Además de permitirme ser pragmático, transmitir conocimientos formando nuevos vendedores y desarrollando negocios a largo plazo. 
+							Estoy seguro esta experiencia me ayudará a aprovechar la programación desde otro ángulo.</p>
+							<br>
+							<section>
+								<h2>Hobbies</h2>
+								<p>Surfista, músico y gamer</p>
+							</section>
+					</header>
+					<ul class="actions special">
+						<li><a href="#" target="_blank" class="button style1 large">CV</a></li>
+						<li><a href="https://www.linkedin.com/in/joan-camarotta-816b95172/" target="_blank" class="button style2 large">LinkedIn</a></li>
+					</ul>
+				</section>
+
+		</div>
+	</section>
+
+<!-- Highlights -->
+	<section id="highlights" class="wrapper style3">
+		<div class="title">Proyectos</div>
+		<div class="container">
+			<div class="row aln-center">
+				<div class="col-4 col-12-medium">
+					<section class="highlight">
+						<a href="#" class="image featured"><img src="images/mdqpets.jpg" alt="" /></a>
+						<h3><a href="#">MDQP-Pets</a></h3>
+						<p>Mediante formulario, los pet-shop, veterinarias y entrenadores/paseadores de Mar del Plata, 
+							pueden cargar sus horarios, servicios y datos de contacto, para que los dueños puedan encontrar 
+							lo que necesiten en un solo lugar!</p>
+						<ul class="actions">
+							<li><a href="#" class="button style1">Leer más</a></li>
+						</ul>
+					</section>
+				</div>
+				<div class="col-4 col-12-medium">
+					<section class="highlight">
+						<a href="#" class="image featured"><img src="images/bdn.jpg" alt="" /></a>
+						<h3><a href="#">Blog</a></h3>
+						<p>Un blog de noticias, con categorías, formularios de registro y publicación, un admin personalizado con un usuario especial para el dueño del blog. Realizado para la entrega final en Coderhouse</p>
+						<ul class="actions">
+							<li><a href="#" class="button style1">Leer más</a></li>
+						</ul>
+					</section>
+				</div>
+				<div class="col-4 col-12-medium">
+					<section class="highlight">
+						<a href="#" class="image featured"><img src="images/3Deco.jpg" alt="" /></a>
+						<h3><a href="#">E-Commerce</a></h3>
+						<p>Un e-commerce para un emprendimiento de impresiones 3D. Permitiendo elegir modelos y colores para los mismos, sumarlos al carrito y enviar la orden.</p>
+						<ul class="actions">
+							<li><a href="#" class="button style1">Leer más</a></li>
+						</ul>
+					</section>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Footer -->
+	<section id="footer" class="wrapper">
+		<div class="title">Contacto</div>
+		<div class="container">
+			<header class="style1">
+				<h2>¿Que opinás?</h2>
+				<p>
+					Si te parece interesante mi perfil, podés contactarme por este form.<br />
+					También te dejo mis datos de contacto
+				</p>
+			</header>
+			<div class="row">
+				<div class="col-6 col-12-medium">
+
+					<!-- Contact Form -->
+						<section>
+							<form method="post" action="#" id="contact">
+								<div class="row gtr-50">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="contact-name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="contact-email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" class="style1" value="Enviar" /></li>
+											<li><input type="reset" class="style2" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+
+				</div>
+				<div class="col-6 col-12-medium">
+
+					<!-- Contact -->
+						<section class="feature-list small">
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-phone">Telefono</h3>
+										<p>
+											+549 223 5919536
+										</p>
+									</section>
+								</div>
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-comment">Social</h3>
+										<p>
+											<a href="https://www.linkedin.com/in/joan-camarotta-816b95172/" target="_blank">LinkedIn</a><br />
+											<a href="https://github.com/jcsax?tab=repositories" target="_blank">GitHub</a><br />
+										</p>
+									</section>
+								</div>
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-envelope">Email</h3>
+										<p>
+											<a href="mailto:camarottajoan@gmail.com" target="_blank">camarottajoan@gmail.com</a><br />
+										</p>
+									</section>
+								</div>
+								<div class="col-6 col-12-small">
+								<section>
+								<h3 class="icon solid fa-home">Alguna duda?</h3>
+									<p>
+										<a href="#header">Da otro paseo!</a>
+									</p>
+								</div>
+							</div>
+						</section>
+	</section>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
